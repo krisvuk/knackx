@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="/static/main.css"/>
+	<title>KnackX</title>
+</head>
+
+<body>
+<div id="topBar">
+<a href="/"><div class="logo"></div></a>
+<div class="loginForm">
+
+<form>
+	<input type="text" name="username">
+	<input type="password" name="password">
+	<input type="submit" value="Login"> <a href="/register">Register!</a>
+</form>
+
+</div><!--End of loginForm-->
+</div><!--End of topBar-->
+<div id="mainWrapper">
+kk
+</div><!--End of mainWrapper-->
+</body>
+</html>

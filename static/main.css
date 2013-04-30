@@ -1,0 +1,378 @@
+body{
+
+	background-color:#444444;
+	margin: 0; 
+	padding: 0;
+}
+
+#topBar{
+	background-image:url(/img/topBarBg.png);
+	height:35px;
+	min-width: 900px;
+}
+
+.logo{
+	position: absolute;
+	background-image:url(/img/logo.png);
+	background-repeat: none;
+	height: 35px;
+	width: 200px;
+}
+
+.logo:hover{
+	background-image:url(/img/logoOver.png);
+}
+
+.loginForm{
+	float: right;
+	padding-top:5px;
+	padding-right:30px;
+}
+
+.loginForm a{
+	text-decoration: none;
+	color: white;
+}
+
+.loginForm a:hover{
+	color: orange;
+}
+
+#mainWrapper{
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 1200px;
+	height: 905px;
+	background-color:white;
+	min-width: 900px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	
+}
+
+#registerWrapper{
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 1200px;
+	height: 800px;
+	background-color: red;
+
+
+	
+}
+
+.registerContainer{
+	position: absolute;
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 700px;
+	height: 700px;
+	background-color: white;
+	margin-top: 120px;
+	margin-left: 250px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-top: 15px;
+
+}
+
+
+.registerBgOne{
+	width:700px;
+	height:700px;
+	background-image:url(/img/registerBg.png);
+	margin-top:20px;
+}
+
+.registerBgOne form input.focus{
+	border:1px solid white;
+}
+
+.registerButton{
+	width:358px;
+	height:46px;
+	background-image:url(/img/registerButton.png);
+	position:absolute;
+	margin-top:560px;
+	margin-left:177px;
+	border: 0;
+
+}
+
+.registerButton:hover{
+		background-image:url(/img/registerButtonOver.png);
+}
+
+#adBoxTop{
+	position:absolute;
+	margin-top: 1px;
+	margin-left: 200px;
+	height: 100px;
+	width:800px;
+	background-color: blue;
+	color: white;
+}
+
+#openOffers{
+	position: absolute;
+	margin-top: 102px;
+	background-color: white;
+	width:1200px;
+	height: 150px; 
+	border-top: 1px solid gray;
+}
+
+#buttonsContainer{
+	position: absolute;
+	background-color: red;
+	margin-top: -5px;
+	width: 1200px;
+	height: 100px;
+}
+
+.englishButton img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .englishButton img.top:hover {
+  opacity:0;
+}
+
+.mathButton img {
+  position:absolute;
+  left:100px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .mathButton img.top:hover {
+  opacity:0;
+}
+
+.biologyButton img {
+  position:absolute;
+  left:200px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .biologyButton img.top:hover {
+  opacity:0;
+}
+
+.chemistryButton img {
+  position:absolute;
+  left:300px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .chemistryButton img.top:hover {
+  opacity:0;
+}
+
+.physicsButton img {
+  position:absolute;
+  left:400px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .physicsButton img.top:hover {
+  opacity:0;
+}
+
+.webButton img {
+  position:absolute;
+  left:500px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .webButton img.top:hover {
+  opacity:0;
+}
+
+.codingButton img {
+  position:absolute;
+  left:600px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .codingButton img.top:hover {
+  opacity:0;
+}
+
+.artButton img {
+  position:absolute;
+  left:700px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .artButton img.top:hover {
+  opacity:0;
+}
+
+.historyButton img {
+  position:absolute;
+  left:800px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .historyButton img.top:hover {
+  opacity:0;
+}
+
+.geographyButton img {
+  position:absolute;
+  left:900px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .geographyButton img.top:hover {
+  opacity:0;
+}
+
+.languagesButton img {
+  position:absolute;
+  left:1000px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .languagesButton img.top:hover {
+  opacity:0;
+}
+
+.musicButton img {
+  position:absolute;
+  left:1100px;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+ }
+
+ .musicButton img.top:hover {
+  opacity:0;
+}
+
+
+#mainPageBoxLeft{
+	position: absolute;
+	width: 599px;
+	margin-top: 253px;
+	margin-left: 0px;
+	height: 652px;
+	background-color: white;
+	border-right:1px solid gray;
+
+}
+
+.newsBoxOne{
+	height: 102px;
+	margin-top: -5px;
+}
+
+.newsBoxTwo{
+	height: 102px;
+	margin-top: 1px;
+}
+
+
+.newsBoxThree{
+	height: 102px;
+	margin-top: 1px;
+}
+
+
+.newsBoxFour{
+	height: 102px;
+	margin-top: 1px;
+}
+
+
+.newsBoxFive{
+	height: 102px;
+	margin-top: 1px;
+}
+
+
+.newsBoxSix{
+	height: 102px;
+	margin-top: 1px;
+}
+
+
+
+#mainPageBoxRight{
+	position: absolute;
+	width: 599px;
+	margin-top: 253px;
+	margin-left: 600px;
+	height: 652px;
+	background-color: white;
+	border-left: 1px solid gray;
+}
+
+#searchBar{
+	position: absolute;
+	margin-left:980px;
+	margin-top:-41px;
+	z-index:1000;
+}
+
+#mainFooter{
+	min-width:1100px;
+	width: auto;
+	height: 200px;
+	background-color: #111111;
+	color: white;
+
+}
+
+#mainFooter a{
+	color: green;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+	text-decoration: none;
+}
+
+#mainFooter a:hover{
+	color:white;
+}

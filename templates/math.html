@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="/static/main.css"/>
+	<title>KnackX</title>
+</head>
+
+<body>
+<div id="topBar">
+<a href="/"><div class="logo"></div></a>
+<div class="loginForm">
+{% if username %}
+<font style="color:white;">Welcome, </font> <a href="/profile/{{username}}">{{username}}.</a> <font style='color:white;'>|</font> <a href="/logout">Logout</a>
+{% else %}
+<form method="post">
+	<input type="text" name="username">
+	<input type="password" name="password">
+	<input type="submit" value="Login"> <a href="/register">Register!</a>
+</form>
+<div style="position: absolute; margin-left: -205px; margin-top: -22px; color: red; ">{{error}}</div><!--mainLoginFormError-->
+{% endif %}
+
+</div><!--End of loginForm-->
+</div><!--End of topBar-->
+<div id="mainWrapper">
+
+<div id="adBoxTop"> <center><h1>Ads</h1></center></div>
+<div id="openOffers">
+
+<img style="position: relative; height:50px;" src="/img/mathBanner.png"/>
+<div id="searchBar"><form><input type="text" name="search" disabled="disabled"/>
+	<input type="submit" value="Search" disabled="disabled"/></form></div>
+
+<div id="buttonsContainer">
+
+	<a href="/english">
+	<div class="englishButton">
+    	<img class="bottom" src="/img/englishButtonOver.png" />
+    	<img class="top" src="/img/englishButton.png" />
+	</div>
+	</a>
+
+	<a href="/math">
+	<div class="mathButton">
+    	<img class="bottom" src="/img/mathButtonOver.png" />
+    	<img class="top" src="/img/mathButtonOver.png" />
+	</div>
+	</a>
+
+	<a href="/biology">
+	<div class="biologyButton">
+    	<img class="bottom" src="/img/biologyButtonOver.png" />
+    	<img class="top" src="/img/biologyButton.png" />
+	</div>
+	</a>
+
+	<a href="/chemistry">
+	<div class="chemistryButton">
+    	<img class="bottom" src="/img/chemistryButtonOver.png" />
+    	<img class="top" src="/img/chemistryButton.png" />
+	</div>
+	</a>
+
+	<a href="physics">
+	<div class="physicsButton">
+    	<img class="bottom" src="/img/physicsButtonOver.png" />
+    	<img class="top" src="/img/physicsButton.png" />
+	</div>
+	</a>
+
+	<a href="web">
+	<div class="webButton">
+    	<img class="bottom" src="/img/webButtonOver.png" />
+    	<img class="top" src="/img/webButton.png" />
+	</div>
+	</a>
+
+	<a href="coding">
+	<div class="codingButton">
+    	<img class="bottom" src="/img/codingButtonOver.png" />
+    	<img class="top" src="/img/codingButton.png" />
+	</div>
+	</a>
+
+	<a href="art">
+	<div class="artButton">
+    	<img class="bottom" src="/img/artButtonOver.png" />
+    	<img class="top" src="/img/artButton.png" />
+	</div>
+	</a>
+
+	<a href="history">
+	<div class="historyButton">
+    	<img class="bottom" src="/img/historyButtonOver.png" />
+    	<img class="top" src="/img/historyButton.png" />
+	</div>
+	</a>
+
+	<a href="geography">
+	<div class="geographyButton">
+    	<img class="bottom" src="/img/geographyButtonOver.png" />
+    	<img class="top" src="/img/geographyButton.png" />
+	</div>
+	</a>
+
+	<a href="languages">
+	<div class="languagesButton">
+    	<img class="bottom" src="/img/languagesButtonOver.png" />
+    	<img class="top" src="/img/languagesButton.png" />
+	</div>
+	</a>
+
+	<a href="music">
+	<div class="musicButton">
+    	<img class="bottom" src="/img/musicButtonOver.png" />
+    	<img class="top" src="/img/musicButton.png" />
+	</div>
+	</a>
+</div><!--End of ButtonsContainer-->
+</div><!--End of openOffers-->
+
+<div id="mainPageBoxLeft">
+
+
+</div><!--End of mainPageBoxLeft-->
+
+<div id="mainPageBoxRight">
+
+</div><!--End of mainPageBoxRight-->
+</div><!--End of mainWrapper-->
+<div id="mainFooter">
+<center>
+<table width="600px">
+	<tr>
+		<td width="150px"><u>About Us</u></td> <td width="150px"><u>Contact Us</u></td> <td width="150px"><u>Advertising</u></td> <td width="150px"><u>Legal</u></td>
+	</tr>
+	<tr>
+		<td width="150px"><a href="/">Home</a></td> <td width="150px"><a href="/contact">Contact</a></td> <td width="150px"><a href="/advertising">Advertising</a></td> <td width="150px"> <a href="/terms_of_use">Terms of Use</a></td>
+	</tr>
+	<tr>
+		<td width="150px"><a href="/faq">FAQ</a></td> <td width="150px"></td> <td width="150px"></td> <td width="150px"></td>
+	</tr>
+	<tr>
+		<td width="150px"><a href="/privacy_policy">Privacy Policy</a></td> <td width="150px"></td> <td width="150px"></td> <td width="150px"></td>
+	</tr>
+	<tr>
+		<td width="150px"><a href="/register">Register</a></td> <td width="150px"></td> <td width="150px"></td> <td width="150px"></td>
+	</tr>
+
+</table>
+<br>
+The contents of this webpage are copyright © 2013-2013 KnackX.com. All Rights Reserved
+<br>
+KnackX is proudly powered by <a href="https://developers.google.com/appengine/"><font style="color: grey;"><u>Google App Engine</u></font></a><img style="position: absolute; margin-top: -5px; margin-left: 5px;" src="/img/googleAppEngine.png"/>
+</center>
+</div><!--mainFooter-->
+</body>
+</html>
